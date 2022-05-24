@@ -1,0 +1,25 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo  .pf-c-brand {
+  height: 30px;
+  margin-right: 10px;
+}

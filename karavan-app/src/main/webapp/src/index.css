@@ -1,0 +1,51 @@
+
+
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.karavan .pf-c-page__main {
+  overflow: hidden;
+}
+.logo,
+.logo svg {
+  height: 48px;
+  width: unset;
+}
+
+.karavan .kamelet-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.karavan .kamelets-page {
+  overflow: auto;
+  flex-shrink: unset;
+  flex-grow: 1;
+}
+
+.karavan .integration-card .pf-c-card__footer {
+  text-align: end;
+}
+
+.karavan .integration-card .running{
+  color: green;
+  font-weight: bold;
+}
+
+.karavan .integration-card .error{
+  color: red;
+  font-weight: bold;
+}
+
+.karavan .integration-card .normal{
+  color: initial;
+  font-weight: initial;
+}
